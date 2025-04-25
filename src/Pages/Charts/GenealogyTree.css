@@ -1,0 +1,79 @@
+.page-content {
+  padding: 20px;
+}
+
+.genealogy-tree {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.tree-node {
+  text-align: center;
+  margin: 0 20px;
+  position: relative;
+}
+
+.user-info {
+  margin-bottom: 10px;
+}
+
+.user-icon {
+  margin-right: 10px;
+}
+
+.children {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.children-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.child {
+  position: relative;
+}
+
+.child::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 2px;
+  height: 20px;
+   transform: translateX(-50%);
+}
+
+.child:first-child::before {
+  display: none;
+}
+
+.child:last-child::before {
+  display: none;
+}
+
+.tree-node:not(:last-child)::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 20px;
+  height: 2px;
+   transform: translate(-50%, -50%);
+}
+
+.root-node {
+  font-weight: bold;
+}
+
+.genealogy-tree::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 0;
+ }

@@ -1,0 +1,15 @@
+.nowrap {
+    white-space: nowrap; /* Prevents text from wrapping */
+  }
+  
+  .table {
+    width: 100%; /* Ensures the table takes full width */
+  }
+  
+  .table th,
+  .table td {
+    overflow: hidden; /* Ensures that overflowing text is hidden */
+    text-overflow: ellipsis; /* Optionally add ellipsis for overflow */
+    max-width: 200px; /* Set a max width for table cells to maintain layout */
+  }
+  
