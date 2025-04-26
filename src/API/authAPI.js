@@ -1,6 +1,6 @@
 
 // export const API_BASE_URL = "http://13.201.134.253:5000/api/admin"; 
-export const API_BASE_URL = "http://3.110.119.145:5000/api/admin"; 
+export const API_BASE_URL = "http://65.2.122.45:5000/api/admin"; 
 // export const API_BASE_URL = "http://localhost:5000/api/admin";
 // export const API_BASE_URL =  "https://Health Carebackend.onrender.com/api";
 export const API_ENDPOINTS = {
